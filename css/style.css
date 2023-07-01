@@ -1,0 +1,75 @@
+.gradient-background {
+  background: linear-gradient(300deg,#59057B ,#b74c04, #FBFFB1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 500px;
+  
+}
+.profile12-img{
+  height:500px;
+  width:500px ;
+}
+.fl-node-5c648ece4f4be.fl-module-heading .fl-heading {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 28px;
+  }
+
+  .fs-2 {
+    font-size: 20px;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+}
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* Common styles for both light and dark themes */
+body {
+  transition: background-color 0.3s ease;
+}
+
+/* Light theme styles */
+body:not(.dark-theme) {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  background-color: #333;
+  color: #f8f8f8;
+}
+
+
